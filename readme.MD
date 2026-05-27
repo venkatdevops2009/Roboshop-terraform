@@ -4,12 +4,12 @@
 ![Nginx](https://img.shields.io/badge/Nginx-Frontend-009639?logo=nginx&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![GoLang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?&logo=openjdk&logoColor=white)
+![GoLang](https://img.shields.io/badge/Go-00ADD8?&logo=go&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?&logo=rabbitmq&logoColor=white)
 
 This project provisions a complete Roboshop microservices infrastructure on AWS using Terraform.
 
