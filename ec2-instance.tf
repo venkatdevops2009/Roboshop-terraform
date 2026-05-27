@@ -56,7 +56,7 @@ resource "aws_instance" "mysql" {
   tags = {
     Name = "mysql"
   }
-} 
+}
 
 ############################################
 # RABBITMQ
@@ -179,9 +179,6 @@ resource "aws_instance" "shipping" {
 
   ami           = "ami-0220d79f3f480ecf5"
   instance_type = "t3.micro"
-  instance_market_options {
-    market_type = "spot"
-  }
 
   vpc_security_group_ids = [
     aws_security_group.shipping.id
@@ -213,9 +210,6 @@ resource "aws_instance" "payment" {
 
   ami           = "ami-0220d79f3f480ecf5"
   instance_type = "t3.micro"
-  instance_market_options {
-    market_type = "spot"
-  }
 
   vpc_security_group_ids = [
     aws_security_group.payment.id
@@ -278,9 +272,6 @@ resource "aws_instance" "frontend" {
 
   ami           = "ami-0220d79f3f480ecf5"
   instance_type = "t3.micro"
-  instance_market_options {
-    market_type = "spot"
-  }
 
   vpc_security_group_ids = [
     aws_security_group.frontend.id
